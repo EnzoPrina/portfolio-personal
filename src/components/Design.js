@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import styles from "../styles/design.module.css";
-import Carbon from "../../public/behance/CarbonQuill";
-import epzunshoes from "../../public/behance/epzunshoes";
-import pritravel from "../../public/behance/pritravel";
-import responsive from "../../public/behance/responsive";
+import carbon from "../../public/behance/carbonquill.jpg";
+import epzunshoes from "../../public/behance/epzunshoes.jpg";
+import pritravel from "../../public/behance/pritravel.jpg";
+import responsive from "../../public/behance/responsive.jpg";
 
 
 const Design = () => {
@@ -25,7 +25,7 @@ const Design = () => {
           <p className={styles.p}>Clique no Behance e confira todos os meus designs publicados!</p>
         </div>
         <ul className={styles.galeria}>
-		<li><a href="https://www.behance.net/gallery/166052071/UX-UI-Aplicacion"><Image src={Carbon} width={200} height={200} alt='behance'/></a></li>
+		<li><a href="https://www.behance.net/gallery/166052071/UX-UI-Aplicacion"><Image src={carbon} width={200} height={200} alt='behance'/></a></li>
 		<li><a href="https://www.behance.net/gallery/168084485/UX-UI-Ecommerce-Epzun"><Image src={epzunshoes} width={200} height={200} alt='behance'/></a></li>
 		<li><a href="https://www.behance.net/gallery/166615927/UI-UX-PriTravel"><Image src={pritravel} width={200} height={200} alt='behance'/></a></li>
 		<li><a href="https://www.behance.net/gallery/165426561/UI-UX-Blog"><Image src={responsive} width={200} height={200} alt='behance'/></a></li>
